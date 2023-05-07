@@ -5,5 +5,3 @@ video = pafy.new(url)
 best = video.getbest()
 media = vlc.MediaPlayer(best.url)
 media.play()
-while True:
-    pass
